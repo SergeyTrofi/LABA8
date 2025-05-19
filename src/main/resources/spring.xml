@@ -17,7 +17,7 @@
     <import resource="db.xml"/>
     <import resource="loggers.xml"/>
     <import resource="aspects.xml"/>
-    <!-- Different way to define PropertyPlaceholderConfigurer :) -->
+
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
             <list>
